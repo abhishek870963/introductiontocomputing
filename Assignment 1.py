@@ -12,7 +12,7 @@ gross_income = float(input("Enter your gross income"))
 number_of_dependents = float(input("Enter number of dependents"))
 std_deduction = 10000
 tax_income = gross_income - std_deduction -(number_of_dependents * 3000)
-tax = (tax_income * 20)/100
+tax = tax_income * 20/100
 if(tax<0):
     print("Invalid input")
 else:
@@ -35,7 +35,7 @@ m2 = int(input("Marks of 2nd student: "))
 m3 = int(input("Marks of 3rd student: "))
 m4 = int(input("Marks of 4th student: "))
 m5 = int(input("Marks of 5th student: "))
-SortedMarks = [m1, m2, m3, m4, m5]
+SortedMarks.sort() = [m1, m2, m3, m4, m5]
 print(SortedMarks)
 
 #Q5(a).Removing 4th element
