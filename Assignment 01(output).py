@@ -26,7 +26,7 @@ Marks of 2nd student: 34
 Marks of 3rd student: 67
 Marks of 4th student: 78
 Marks of 5th student: 56
-[45, 34, 67, 78, 56]
+[34, 45, 56, 67, 78]
 
 ======================================= RESTART: C:/Users/Hp/AppData/Local/Programs/Python/Python310/Assignment 01(Q.5a).py =======================================
 List of colors before removing:  ['Red', 'Green', 'White', 'Black', 'Pink', 'yellow']
